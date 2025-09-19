@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    line-height: 1.5;
+    background-color: #dfd4c8;
+}
+
+a {
+    text-decoration: none;
+    color: #221a0e;
+}
+
+ul{
+    list-style: none; 
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Home */
+
+.mp h1{
+    font-family: "Lavishly Yours", cursive;
+    font-size:45px;
+}
+.mp p{
+    font-size:30px;
+}
+
+.mp {
+    text-align: center;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    gap: 10px;                
+  }
+
+.main-page > h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    line-height: 3;
+    background-color: #E1B5A5; 
+}
+
+.main-page h1:not(:first-child) {
+    background-color: transparent;
+  }
+
+.main-menu h1{
+    font-size: 40px;
+    display: flex;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.main-menu ul {
+    gap: 40px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    background-color: #808e9b;
+    padding: 20px 0;
+  }
+
+.mpbook{
+    position: absolute;
+    top: 250px;
+    left:50px;
+}
+
+.mpmovies{
+    position: absolute;
+    top: 250px;
+    right:50px;
+}
+
+.mpphotos{
+    position: absolute; 
+    top:300px;
+}
+  
+.main-menu {
+    font-family: "Lavishly Yours", cursive;
+    color: #221a0e;
+    max-width: 1000px;
+    margin: 0 auto; /* center */
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mp img{
+    border:5px solid #E1B5A5;
+    border-radius: 10px;
+}
+
+
+
+/* Book Section */
+.book-comments{
+    font-family: "EB Garamond", serif;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #706f6f;
+    background-color: transparent;  
+    text-align: center;    
+}
+
+.book-comments h1{
+    font-size: 40px;
+    font-family: "Lavishly Yours", cursive;
+    color: #221a0e;
+}
+
+.book-comments a{
+    line-height:1px;
+    font-size: 30px;
+    color: #706f6f;
+}
+
+.book-comments p{
+    font-size: 20px;
+}
+
+.ethics-amb{
+    width:800px;
+    position:absolute;
+    top:650px;
+    left:60px;
+}
+
+.slouch-beth{
+    width: 800px;          
+    position: absolute;
+    top: 150px;             /* control vertical spacing */
+    left: 60px;    
+}
+
+.man-and-symbols{
+    width: 800px;          
+    position: absolute;
+    top: 150px;             /* same vertical level as the other */
+    right: 60px;   
+}
+
+/* Photo Albums */
+
+.bookreviewformats h1{
+    font-family: "Lavishly Yours", cursive;
+}
+
+.bookreviewformats p{
+    text-indent: 3em;
+    font-size: 20px;
+    margin-bottom:1em;
+}
+
+.bookreviewformats{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.albums {
+    position: relative;  /* needed so child absolute positions are relative to it */
+    width: 100%;
+    height: 100vh;       /* give it height so you can place items freely */
+  }
+
+.album {
+    position: absolute;  /* lets you manually place */
+    text-align: center;
+    font-family: "Lavishly Yours", cursive;
+    font-size: 40px;
+    margin: 0 0 8px;
+}
+
+.album img {
+    width: 100px;   /* make the photos a consistent size */
+    height: auto;
+    border-radius: 6px;
+
+}
+
+.album p {
+    font-size: 20px;
+    color: #706f6f;
+    margin: 0 0 16px;
+}
+
+.restaurant {
+    position: absolute;
+    top: 100px;
+    left:100px;
+}
+
+.filecab{
+    position: absolute; 
+    top: 375px;
+    left: 400px;
+}
+
+.nicaragua{
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+
+.unfinished{
+    position: absolute;
+    top:275px;
+    left:100px
+}
+
+.hermits{
+    position: absolute; 
+    top:375px;
+    left:100px
+}
