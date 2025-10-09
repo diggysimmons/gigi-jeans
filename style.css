@@ -13,6 +13,7 @@ body {
 a {
     text-decoration: none;
     color: #221a0e;
+    font-weight: bold;
 }
 
 ul{
