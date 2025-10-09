@@ -13,7 +13,6 @@ body {
 a {
     text-decoration: none;
     color: #221a0e;
-    font-weight: bold;
 }
 
 ul{
@@ -29,6 +28,7 @@ img{
 .mp a{
     font-family: "Lavishly Yours", cursive;
     font-size:45px;
+    font-weight: bold;
 }
 .mp p{
     font-size:30px;
