@@ -145,14 +145,21 @@ img{
     width: 800px;          
     position: absolute;
     top: 150px;             /* control vertical spacing */
-    left: 60px;    
+    right: 60px;    
 }
 
 .man-and-symbols{
     width: 800px;          
     position: absolute;
-    top: 150px;             /* same vertical level as the other */
+    top: 650px;             /* same vertical level as the other */
     right: 60px;   
+}
+
+.palm-eld{
+    width: 800px;
+    position: absolute; 
+    top: 150px;
+    left: 60px;
 }
 
 /* Photo Albums */
